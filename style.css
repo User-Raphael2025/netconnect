@@ -709,7 +709,7 @@ img {
   }
 
   .nav-links.active {
-    background: rgba(22, 24, 133, 0.1);
+    /*background: rgba(22, 24, 133, 0.1);*/
     backdrop-filter: blur(5px);
     display: flex;
   }
@@ -718,5 +718,6 @@ img {
     display: block;
   }
 }
+
 
 
