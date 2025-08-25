@@ -698,8 +698,8 @@ img {
     position: absolute;
     top: 60px;
     right: 0;
-    background: transparent;
-    background-color: transparent;
+    background:  rgba(22, 24, 133, 0.1);
+    background-color: rgba(22, 24, 133, 0.1);
     box-shadow: none;
     border: none;
     flex-direction: column;
@@ -718,3 +718,4 @@ img {
     display: block;
   }
 }
+
