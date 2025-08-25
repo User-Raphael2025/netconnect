@@ -663,7 +663,7 @@ img {
   justify-content: space-between;
   align-items: center;
   background: transparent; /* tu peux changer la couleur */
-  padding: 15px 20px;
+  padding: 10px 20px;
   color: rgb(0, 0, 0);
 }
 
@@ -705,7 +705,7 @@ img {
     flex-direction: column;
     width: 200px;
     text-align: center;
-    padding: 15px 0;
+    padding: 10px 20px;
   }
 
   .nav-links.active {
@@ -718,3 +718,4 @@ img {
     display: block;
   }
 }
+
