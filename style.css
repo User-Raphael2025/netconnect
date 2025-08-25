@@ -611,3 +611,49 @@ body {
 }
 
 
+/* Rendre les images flexibles */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Conteneurs fluides */
+.container, .wrapper, .content {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+/* Ajustements pour écrans petits (téléphones) */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    margin: 5px;
+  }
+
+  /* Par exemple réduire les marges/padding sur petits écrans */
+  header, footer, main, section {
+    padding: 10px 5px;
+  }
+
+  /* Menu ou navigation en colonne */
+  nav ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin-bottom: 10px;
+  }
+
+  /* Texte plus lisible */
+  h1, h2, h3, h4 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    line-height: 1.4;
+  }
+}
