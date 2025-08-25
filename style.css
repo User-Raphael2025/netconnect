@@ -696,7 +696,7 @@ img {
   .nav-links {
     display: none;
     position: absolute;
-    top: 20px;
+    top: 40px;
     right: 0;
     background: transparent;
     background-color: transparent;
@@ -718,6 +718,7 @@ img {
     display: block;
   }
 }
+
 
 
 
