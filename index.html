@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NetConnect - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">NetConnect</div>
+
+    <div id="google_translate_element"></div>
+
+     
+
+
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <!--<li><a href="login.html">Login</a></li>-->
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1 class="fade-in">
+      Empowering Communities with Trusted Internet Solutions — Share, Sell, and Stay Connected Anywhere.
+    </h1>
+    <img src="12345.jpg" alt="Internet" class="img-hover fade-in" width="200">
+    <p>Welcome to the new era of Internet sharing.</p>
+    <a href="#" class="btn-primary fade-in" onclick="openPopup()">View Plans</a>
+    <a href="https://wa.me/250791502344" target="_blank" class="whatsapp-button" aria-label="Contact us on WhatsApp">
+      <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp" class="whatsapp-icon">
+    </a>
+  </section>
+
+  
+
+  <footer>
+    <p>&copy; 2025 NetConnect. All rights reserved.</p>
+  </footer>
+
+  <!-- POPUP -->
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <h2>Our Plans</h2>
+      <ul>
+        <li><strong>Basic:</strong> 5 Mbps - $20/mo</li>
+        <li><strong>Standard:</strong> 20 Mbps - $35/mo</li>
+        <li><strong>Premium:</strong> 50 Mbps - $50/mo</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function openPopup() {
+      document.getElementById("popup").style.display = "flex";
+    }
+    function closePopup() {
+      document.getElementById("popup").style.display = "none";
+    }
+  </script>
+
+  <!-- GOOGLE TRANSLATE -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,fr',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  
+</body>
+</html>
