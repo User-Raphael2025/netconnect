@@ -662,9 +662,9 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #004aad; /* tu peux changer la couleur */
+  background: transparent; /* tu peux changer la couleur */
   padding: 15px 20px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .logo {
@@ -698,7 +698,7 @@ img {
     position: absolute;
     top: 60px;
     right: 0;
-    background: #004aad;
+    background: transparent;
     flex-direction: column;
     width: 200px;
     text-align: center;
