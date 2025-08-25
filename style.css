@@ -710,7 +710,7 @@ img {
 
   .nav-links.active {
     background: transparent;
-    /*backdrop-filter: blur(5px);*/
+    backdrop-filter: blur(5px);
     display: flex;
   }
 
@@ -718,6 +718,7 @@ img {
     display: block;
   }
 }
+
 
 
 
