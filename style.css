@@ -696,7 +696,7 @@ img {
   .nav-links {
     display: none;
     position: absolute;
-    top: 40px;
+    top: 60px;
     right: 0;
     background: transparent;
     background-color: transparent;
@@ -709,7 +709,7 @@ img {
   }
 
   .nav-links.active {
-    background: transparent;
+    background: rgba(22, 24, 133, 0.1);
     backdrop-filter: blur(5px);
     display: flex;
   }
@@ -718,8 +718,3 @@ img {
     display: block;
   }
 }
-
-
-
-
-
