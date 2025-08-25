@@ -680,7 +680,7 @@ img {
 
 .nav-links li a {
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bold;
 }
 
@@ -699,6 +699,9 @@ img {
     top: 60px;
     right: 0;
     background: transparent;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
     flex-direction: column;
     width: 200px;
     text-align: center;
@@ -706,6 +709,8 @@ img {
   }
 
   .nav-links.active {
+    background: transparent;
+    backdrop-filter: blur(5px);
     display: flex;
   }
 
